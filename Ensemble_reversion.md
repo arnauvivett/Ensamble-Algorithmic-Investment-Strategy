@@ -1,4 +1,4 @@
-# Ensemble reversion
+# Ensamble Reversion
 
 Now that the ensembles with similar statistical properties have been selected, what will be
 computed now is the ensemble average and standard deviation through a time window, for 
