@@ -1,1 +1,1 @@
-Trying to make a profit in the stock market using statistical algorithms, is a hard but lucrative problem, most of the hedge founds operating today use algorithms to trade and some estimates state that $60-75\%$ of the total trades made in the world are algorithmic. 
+Trying to make a profit in the stock market using statistical algorithms, is a hard but lucrative problem, most of the hedge founds operating today use algorithms to trade and some estimates state that $60-75$% of the total trades made in the world are algorithmic. 
