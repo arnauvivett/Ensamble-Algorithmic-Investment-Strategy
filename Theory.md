@@ -6,8 +6,16 @@ I know the fact that the SP500 produces annual returns of about $10$%. The metho
 #Ensemble creation
 
 To create the ensembles, I first compute the return and the volatility of every stock in the list using:
-$$
-    &R = \langle \frac{S(t_1)-S(t_0)}{S(t_0))} \rangle \times \Delta\\
-    &V = \sqrt{Var\left( \frac{S(t_1)-S(t_0)}{S(t_0))}\right) \times\Delta}
-$$
+
+
+This: 
+
+$$R = \langle \frac{S(t_1)-S(t_0)}{S(t_0))} \rangle \times \Delta$$ 
+
+$$V = \sqrt{Var\left( \frac{S(t_1)-S(t_0)}{S(t_0))}\right) \times\Delta}$$
+
+
+
 Where the $\Delta$ is the time difference between the initial and final times of each stock price. I assume that those two variables characterize the statistical properties of the stocks in some meaningful way. For this reason, I then perform k-means clustering on the data produced. Although k-means has some disadvantages such as being sensitive to the initial choice of parameters, difficulty handling outliers and the need to know the number of clusters in advance, it is also simple to scale, has guaranteed convergence and is simple to implement.
+
+
