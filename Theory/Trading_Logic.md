@@ -80,7 +80,7 @@ be biased.
 In this case, the returns for the maximum values computed before are of $0.29$. This can be compared with
 the returns of longing the same communities found in training and summing 
 all the returns from that time. The returns are $0.106 $. To be fair, is unusually low.
-By market standards it should be around the $20\%$. 
+By market standards it should be around the $20\%$. The percentage change of investing just when training time starts, for a random community looks like:
 
 <img width="767" alt="pct_long_sp500" src="https://github.com/user-attachments/assets/3002a141-15e3-4974-8b90-759701bc50c2">
 
