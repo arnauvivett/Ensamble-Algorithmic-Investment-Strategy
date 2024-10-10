@@ -36,7 +36,11 @@ $$S_k^{e}(t) = S_e^{st}(t)*\sigma_k(t) + R(S_k(t))$$
 
 The exact same expression can be used to calculate the standard deviation bounds from above as
 $S_{k}^{\pm\sigma}=S_{e}^{st}\pm\sigma_e(t)$ and thus this equation can 
-be used to bring the value back to the scale of whatever stock it is being traded.  
+be used to bring the value back to the scale of whatever stock it is being traded.
+
+<img width="772" alt="ensamble_price" src="https://github.com/user-attachments/assets/923daa58-3602-4f56-ab90-4cf46f0c8c41">
+Where the ensamble mean is shown in white ant the standard deviation in red.
+
 
 That is what made most sense to me mathematically. But empirically I found that the if instead 
 of computing $S_{k}^{\pm\sigma}$, the way it is just explained, it is computed using the $\sigma_k(t)$ 
@@ -45,4 +49,7 @@ Thus, I choose to use the formula with the high returns even though its a proble
 able to solve. 
 
 $$S_{k}^{\pm\sigma}=S_{e}^{st}\pm\sigma_k(t)$$
+
+The inverse transform looks like: 
+<img width="759" alt="inverse_scale_transform" src="https://github.com/user-attachments/assets/04833f52-313a-455e-b0f9-fa47d64bbd9f">
 
