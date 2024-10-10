@@ -61,10 +61,13 @@ $H=\frac{log(2)}{\lambda}$
 Now joining everything so far, the trading strategy is complete for the testing time. 
 Putting everything together, the logic is implemented for every stock in every community 
 found in the SP500 stocks. 
+
 Not only that but for every any value of alpha and window size, the returns can be computed. 
 If an exhaustive search is done for the surface that is represented by those parameters, 
 then the maximum return can be found. Exactly at the point 
 of maximum return, the data is used for the test part. 
+<img width="702" alt="train_surface" src="https://github.com/user-attachments/assets/61902d28-1689-4dac-8e0c-2b1b5ee50fd4">
+
 
 In this case starting from 2015-01 until 2022-06, the maximum of $0.23$ occurs at a window of $120$ days 
 and an alpha parameter of $0.3$.
@@ -78,6 +81,8 @@ In this case, the returns for the maximum values computed before are of $0.29$. 
 the returns of longing the same communities found in training and summing 
 all the returns from that time. The returns are $0.106 $. To be fair, is unusually low.
 By market standards it should be around the $20\%$. 
+
+<img width="767" alt="pct_long_sp500" src="https://github.com/user-attachments/assets/3002a141-15e3-4974-8b90-759701bc50c2">
 
 
 This strategy also outputs unusually high returns for that time windows, by checking other times
